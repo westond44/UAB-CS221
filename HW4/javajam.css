@@ -1,0 +1,49 @@
+/* Global styles for the document */
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* Header element selector */
+header {
+    text-align: center;
+    background-color: #D2B48C;
+    color: #8C3826;
+}
+
+/* h1 element selector */
+h1 {
+    line-height: 200%;
+}
+
+/* h2 element selector */
+h2 {
+    color: #8C3826;
+}
+
+/* nav element selector */
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer element selector */
+footer {
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Remove <b> elements in navigation area */
+nav b {
+    display: none; /* Hide <b> elements */
+}
+
+#wrapper {
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
+}
