@@ -47,3 +47,18 @@ nav b {
     margin-right: auto;
     margin-left: auto;
 }
+/* Import the Lobster font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Update link colors and text decoration for navigation links */
+nav a, header a {
+    color: #FFA500; /* Change link color to orange */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Link variations: Hover and Visited for navigation links */
+nav a:hover, header a:hover {
+    color: #FFD700; /* Change link color to gold on hover */
+}
+nav a:visited, header a:visited {
+    color: #800080; /* Change color for visited links to purple */
+}
