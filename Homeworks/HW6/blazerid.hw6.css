@@ -1,0 +1,30 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+}
+
+/* Create a flex container that centers content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Create a grid container with 3x3 grid cells */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; /* Adjust the gap size as needed */
+}
+
+/* Style grid items */
+.grid-item {
+    background-color: #3498db; /* Replace with your preferred background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff; /* Ensure sufficient contrast with background */
+    border-radius: 10px; /* Add rounded corners */
+}
