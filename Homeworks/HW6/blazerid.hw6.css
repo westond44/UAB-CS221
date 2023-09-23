@@ -1,6 +1,6 @@
 /* Reset some default browser styles */
 body {
-    margin: 3;
+    margin: 0;
 }
 /* Create a flex container that centers content */
 body {
@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); /* Ensure equal row heights */
-    grid-gap: 30px; /* Adjust the gap size as needed */
+    grid-gap: 20px; /* Adjust the gap size as needed */
 }
 /* Style grid items */
 .grid-item {
