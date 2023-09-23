@@ -2,7 +2,6 @@
 body {
     margin: 3;
 }
-
 /* Create a flex container that centers content */
 body {
     display: flex;
@@ -19,7 +18,7 @@ body {
 }
 /* Style grid items */
 .grid-item {
-    background-color: #0b0c0d; /* Replace with your preferred background color */
+    background-color: #0b0c0d;
     display: flex;
     justify-content: center;
     align-items: center;
