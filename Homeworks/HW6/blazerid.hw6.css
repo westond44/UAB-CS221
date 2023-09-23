@@ -25,7 +25,8 @@ body {
     font-size: 24px;
     color: #fff; /* Ensure sufficient contrast with background */
     /* Set the width and height to create 1:1 squares */
-    width: 100%;
+    width: 150px
+    height: 150px; /* Match the width to maintain a square shape */
     padding-top: 100%; /* Maintain a 1:1 aspect ratio */
     text-align: center; /* Center text horizontally */
     border-radius: 10px; /* Add rounded corners */
