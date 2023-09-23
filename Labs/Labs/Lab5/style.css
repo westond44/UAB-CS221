@@ -1,0 +1,82 @@
+/* Add a yellow border around the entire page */
+body {
+    border: 1px solid yellow;
+}
+/* Set the background color of the entire page to black */
+body {
+    background-color: black;
+    font-family: sans-serif; /* Typography: Choose appropriate fonts */
+    font-size: 16px; /* Typography: Adjust font size */
+    line-height: 1.7; /* Typography: Adjust line height for readability */
+    margin: 0; /* Padding and Margins: Reset default margin */
+    padding: 0; /* Padding and Margins: Reset default padding */
+}
+
+/* Make all text on the page yellow */
+body, h1, p, a, li {
+    color: yellow; /* Text and Link Styling: Customize text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #100d0d; /* Colors and Backgrounds: Header background color */
+    padding: 20px; /* Padding and Margins: Add padding to header */
+    text-align: center; /* Presentation and Alignment: Center-align header content */
+}
+
+/* Navigation Menu Styling */
+nav ul {
+    list-style-type: none; /* Presentation and Alignment: Remove list bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: yellow; /* Text and Link Styling: Customize navigation link color */
+    text-decoration: none; /* Text and Link Styling: Remove link underline */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Navigation Menu Styling: Apply hover effect */
+}
+
+/* Section Styles */
+section {
+    background-color: #100d0d; /* Colors and Backgrounds: Section background color */
+    padding: 20px; /* Padding and Margins: Add padding to sections */
+    margin: 10px; /* Padding and Margins: Add margin to sections */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%; /* Image Styling: Adjust image size */
+    height: auto;
+    border: 2px solid #ffcc00; /* Image Styling: Add border to images */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #100d0d; /* Colors and Backgrounds: Footer background color */
+    padding: 10px; /* Padding and Margins: Add padding to footer */
+    text-align: center; /* Presentation and Alignment: Center-align footer content */
+}
+
+/* Documentation and Comments */
+/* This puts a yellow frame around the page */
+/* This style sets the background color of the entire page to black */
+/* Typography: Adjust font size and line height for readability */
+/* Padding and Margins: Reset default margin and padding */
+/* Text and Link Styling: Customize text color */
+/* Header Styles */
+/* Navigation Menu Styling: Remove list bullet points */
+/* Text and Link Styling: Customize navigation link color and remove link underline */
+/* Navigation Menu Styling: Apply hover effect */
+/* Section Styles */
+/* Image Styling: Adjust image size and add a border */
+/* Footer Styles */
+/* Documentation and Comments */
