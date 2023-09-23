@@ -8,13 +8,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
 /* Create a grid container with 3x3 grid cells */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); /* Ensure equal row heights */
     grid-gap: 20px; /* Adjust the gap size as needed */
 }
 
@@ -26,5 +27,7 @@ body {
     align-items: center;
     font-size: 24px;
     color: #fff; /* Ensure sufficient contrast with background */
-    border-radius: 10px; /* Add rounded corners */
+    /* Set the width and height to create perfect squares */
+    width: 100%;
+    padding-top: 100%; /* Maintain aspect ratio (1:1) */
 }
