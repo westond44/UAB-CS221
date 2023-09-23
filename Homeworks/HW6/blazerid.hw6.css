@@ -1,32 +1,36 @@
 /* Reset some default browser styles */
 body {
-    margin: 3;
+    margin: 0;
 }
+
 /* Create a flex container that centers content */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200vh;
+    min-height: 100vh;
+    background-color: #0e0f0f; /* Replace with your preferred background color */
+    color: #f1f5f9; /* Replace with your preferred text color */
 }
-/* Create a grid container with 3x3 grid cells */
+
+/* Create a grid container with your desired grid setup */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr); /* Ensure equal row heights */
     grid-gap: 20px; /* Adjust the gap size as needed */
 }
+
 /* Style grid items */
 .grid-item {
-    background-color: #0b0c0d;
+    background-color: #3498db; /* Replace with your preferred background color */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     color: #fff; /* Ensure sufficient contrast with background */
-    /* Set the width and height to create 1:1 squares */
-    width: 150px
-    height 150px; /* Match the width to maintain a square shape */
-    text-align: center; /* Center text horizontally */
     border-radius: 10px; /* Add rounded corners */
+    /* Set the width and height to create square grid items */
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Match the width to maintain a square shape */
+    text-align: center; /* Center text horizontally */
 }
