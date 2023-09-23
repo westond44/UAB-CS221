@@ -1,6 +1,6 @@
 /* Reset some default browser styles */
 body {
-    margin: 0;
+    margin: 3;
 }
 
 /* Create a flex container that centers content */
@@ -10,7 +10,6 @@ body {
     align-items: center;
     min-height: 200vh;
 }
-
 /* Create a grid container with 3x3 grid cells */
 .grid-container {
     display: grid;
@@ -18,10 +17,9 @@ body {
     grid-template-rows: repeat(3, 1fr); /* Ensure equal row heights */
     grid-gap: 20px; /* Adjust the gap size as needed */
 }
-
 /* Style grid items */
 .grid-item {
-    background-color: #3498db; /* Replace with your preferred background color */
+    background-color: #0b0c0d; /* Replace with your preferred background color */
     display: flex;
     justify-content: center;
     align-items: center;
