@@ -89,6 +89,9 @@ nav a:hover {
 #header {
     text-align: center; /* Center-align the contents */
 }
+#footer {
+    text-align: center; /* Center-align the contents */
+}
 
 /* Documentation and Comments */
 /* This puts a yellow frame around the page */
