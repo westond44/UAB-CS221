@@ -65,6 +65,27 @@ footer {
     padding: 10px; /* Padding and Margins: Add padding to footer */
     text-align: center; /* Presentation and Alignment: Center-align footer content */
 }
+/* Define color variables */
+:root {
+    --background-color: #100d0d;
+    --text-color: yellow;
+    --link-color: yellow;
+    --link-hover-color: #ffcc00;
+}
+
+/* Use color variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav a {
+    color: var(--link-color);
+}
+
+nav a:hover {
+    color: var(--link-hover-color);
+}
 
 /* Documentation and Comments */
 /* This puts a yellow frame around the page */

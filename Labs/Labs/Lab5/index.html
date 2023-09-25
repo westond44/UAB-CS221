@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-</body>
-<br>
-<header>
+  <div id="header"
+    <header>
     <h1>Tyler Dorough</h1>
     <p>UAB 2024 Psych Major </p>
     <nav>
@@ -20,8 +19,10 @@
         </ul>
     </nav>
 </header>
-<br>
-<section id="about">
+</div>
+
+<div id="about">
+<section>
     <h2>About Me</h2>
     <p>Hi, Im Tyler, I am passionate about UX/UI design and Web devlopment and Psychology.</p>
     <ul>
@@ -30,8 +31,11 @@
         <li>UI/UX Design</li>
     </ul>
 </section>
+</div>
 <br>
-<section id="projects">
+
+<div id="projects">
+    <section>
     <h2>Projects</h2>
     <ul>
         <li>
@@ -41,16 +45,23 @@
         </li>
     </ul>
 </section>
+</div>
 <br>
 <section id="contact">
     <h2>Contact</h2>
-    <ul>
-        <li>Email: <a href="mailto:westond@uab.edu">westond@uab.edu</a></li>
-        <li><a href="https://www.linkedin.com/in/weston-dorough-93b945228">LinkedIn</a></li>
-    </ul>
+    <form action="mailto:westond@uab.edu" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
 </section>
 <br>
-<footer>
-    <p>&copy; 2023 Tyler Dorough</p>
-</footer>
+<div id="footer"
+    <footer>
+         <p>&copy; 2023 Tyler Dorough</p>
+       </footer>
+    </div>
+</body>
 </html>
