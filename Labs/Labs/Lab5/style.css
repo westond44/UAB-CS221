@@ -94,5 +94,5 @@ nav a:hover {
 }
 /* adjust the height of the textarea */
 textarea {
-    height: 10px; /* set the desirted height in pixels */
+    height: 100px; /* set the desirted height in pixels */
 }
