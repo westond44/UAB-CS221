@@ -92,18 +92,7 @@ nav a:hover {
 #footer {
     text-align: center; /* Center-align the contents */
 }
-
-/* Documentation and Comments */
-/* This puts a yellow frame around the page */
-/* This style sets the background color of the entire page to black */
-/* Typography: Adjust font size and line height for readability */
-/* Padding and Margins: Reset default margin and padding */
-/* Text and Link Styling: Customize text color */
-/* Header Styles */
-/* Navigation Menu Styling: Remove list bullet points */
-/* Text and Link Styling: Customize navigation link color and remove link underline */
-/* Navigation Menu Styling: Apply hover effect */
-/* Section Styles */
-/* Image Styling: Adjust image size and add a border */
-/* Footer Styles */
-/* Documentation and Comments */
+/* adjust the height of the textarea */
+textarea {
+    height: 100px; /* set the desirted height in pixels */
+}
