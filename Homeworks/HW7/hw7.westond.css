@@ -26,3 +26,20 @@ header {
     background-color: #f1f1f1;
     padding: 10px;
 }
+.photo-grid div:hover {
+    transform: scale(1.05);
+}
+
+.photo-grid div:nth-child(even) {
+    border-style: dashed;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.photo-grid div:not(.exclude-item):hover {
+    transform: scale(1.05);
+}
+
