@@ -7,3 +7,22 @@
     width: 300px;
     height: 300px;
 }
+.photo-grid div {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.photo-grid div:hover {
+    transform: scale(1.05);
+}
+
+.photo-grid div:nth-child(even) {
+    border-style: dashed;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
