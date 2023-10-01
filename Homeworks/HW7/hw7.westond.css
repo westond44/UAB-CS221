@@ -1,45 +1,90 @@
-.photo-grid {
-    display: grid;
-    grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
-    gap: 20px;
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
-.photo-grid div {
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
     width: 300px;
     height: 300px;
-}
-.photo-grid div {
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #333;
+    transition: transform 0.3s ease;
+    position: relative;
 }
-.photo-grid div:hover {
+
+.grid-item:hover {
     transform: scale(1.05);
 }
 
-.photo-grid div:nth-child(even) {
+.item1 {
+    background-image: url('image1.jpg'); /* Replace 'image1.jpg' with your image file path */
+}
+
+.item2 {
+    background-image: url('image2.jpg'); /* Replace 'image2.jpg' with your image file path */
+}
+
+.item3 {
+    background-image: url('image3.jpg'); /* Replace 'image3.jpg' with your image file path */
+}
+
+.item4 {
+    background-image: url('image4.jpg'); /* Replace 'image4.jpg' with your image file path */
+}
+
+/* Add more styles for additional grid items as needed */
+
+.grid-item:nth-child(even) {
     border-style: dashed;
 }
-header {
-    position: sticky;
+
+.grid-item::before {
+    content: 'Sunset at the beach';
+    position: absolute;
     top: 0;
-    background-color: #f1f1f1;
-    padding: 10px;
-}
-.photo-grid div:hover {
-    transform: scale(1.05);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.photo-grid div:nth-child(even) {
-    border-style: dashed;
-}
-header {
-    position: sticky;
-    top: 0;
-    background-color: #f1f1f1;
-    padding: 10px;
-}
-.photo-grid div:not(.exclude-item):hover {
-    transform: scale(1.05);
+.grid-item:hover::before {
+    opacity: 1;
 }
 
+.grid-item:hover::after {
+    content: '\1F50D'; /* Magnifying glass emoji */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    z-index: 1;
+}
